@@ -2,7 +2,7 @@
 
 # Install
 git clone https://github.com/elpmisz/php-jwt-example \
-cd jwt-exmple \
+cd php-jwt-example \
 composer update 
 
 # Create Database
@@ -27,6 +27,10 @@ INSERT INTO  \
 VALUES \
   (1, 'admin', 'admin@test.com', '$2y$15$B6SdL0.Z.t17Ant9w5ns4.Hgm9Bj7MlMfUBYHjpqYJ1ZJpqsQxIOq', 9), \
   (2, 'user', 'user@test.com', '$2y$15$B6SdL0.Z.t17Ant9w5ns4.Hgm9Bj7MlMfUBYHjpqYJ1ZJpqsQxIOq', 1); 
+
+# Edit classes/Database.php
+DB_USER \
+DB_PASSWORD
 
 # Run 
 php -S localhost:3000
