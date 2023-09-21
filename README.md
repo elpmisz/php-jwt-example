@@ -12,14 +12,14 @@ CREATE TABLE `users` ( \
   `password` varchar(255) NOT NULL, \
   `level` int(1) NOT NULL DEFAULT '1', \
   `created` DATETIME DEFAULT CURRENT_TIMESTAMP \
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4; \
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4; 
 
 ALTER TABLE `users` \
   ADD PRIMARY KEY (`id`), \
-  ADD UNIQUE KEY `email` (`email`); \
+  ADD UNIQUE KEY `email` (`email`); 
 
 ALTER TABLE `users` \
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; \
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT; 
 
 INSERT INTO  \
   `users` (`id`, `name`, `email`, `password`,`level`)  \
