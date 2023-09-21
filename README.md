@@ -30,3 +30,7 @@ VALUES \
 
 # Run 
 php -S localhost:3000
+
+# Login
+admin@test.com:test \
+user@test.com:test
