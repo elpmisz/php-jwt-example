@@ -1,7 +1,7 @@
 # JWT Example
 
 # Install
-git clone https://github.com/elpmisz/jwt-example \
+git clone https://github.com/elpmisz/php-jwt-example \
 cd jwt-exmple \
 composer update 
 
