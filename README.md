@@ -2,7 +2,8 @@
 
 # Install
 git clone https://github.com/elpmisz/jwt-example \
-composer update
+cd jwt-exmple \
+composer update 
 
 # Create Database
 CREATE TABLE `users` ( \
@@ -26,3 +27,6 @@ INSERT INTO  \
 VALUES \
   (1, 'admin', 'admin@test.com', '$2y$15$B6SdL0.Z.t17Ant9w5ns4.Hgm9Bj7MlMfUBYHjpqYJ1ZJpqsQxIOq', 9), \
   (2, 'user', 'user@test.com', '$2y$15$B6SdL0.Z.t17Ant9w5ns4.Hgm9Bj7MlMfUBYHjpqYJ1ZJpqsQxIOq', 1); 
+
+# Run 
+php -S localhost:3000
